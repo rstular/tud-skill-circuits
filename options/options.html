@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Skill Circuits deamericaniser</title>
+    <link rel="stylesheet" href="options.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <label for="localeSelector">Locale to use:</label>
+
+            <select name="localeSelector" id="localeSelector">
+                <option value="nl-NL">nl-NL</option>
+                <option value="en-US">en-US</option>
+            </select>
+
+            <input type="text" id="localeInput" placeholder="Enter locale" class="invisible">
+
+            <button class="ripple" id="save">Save</button>
+        </div>
+
+        <br />
+
+        <div>
+            <label>
+                <input type="checkbox" id="advanced">
+                Enable advanced options
+            </label>
+        </div>
+
+        <div id="status"></div>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+
+</html>

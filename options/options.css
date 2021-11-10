@@ -1,0 +1,38 @@
+.container {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.invisible {
+    display: none;
+}
+
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.ripple:hover {
+    background: #bbbbbb radial-gradient(circle, transparent 1%, #aaaaaa 1%) center/15000%;
+}
+
+.ripple:active {
+    background-color: #dddddd;
+    background-size: 100%;
+    transition: background 0s;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    padding: 6px 8px;
+    margin-left: 10px;
+    /* font-size: 16px; */
+    text-transform: uppercase;
+    cursor: pointer;
+    color: black;
+    background-color: #eeeeee;
+    box-shadow: 0 0 4px #bbb;
+    outline: none;
+}
